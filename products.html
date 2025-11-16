@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>สินค้า | ร้านขายดอกไม้</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #fff8f8; }
+        nav a { margin: 0 15px; text-decoration: none; color: #d14b77; font-weight: bold; }
+        .product-container { display: flex; gap: 20px; flex-wrap: wrap; }
+        .product {
+            width: 250px;
+            border: 1px solid #f0c0d0;
+            padding: 10px;
+            border-radius: 10px;
+            background: white;
+        }
+        .product img { width: 100%; border-radius: 10px; }
+        button {
+            margin-top: 10px;
+            width: 100%;
+            padding: 8px;
+            background: #d14b77;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">หน้าแรก</a>
+    <a href="products.html">สินค้า</a>
+    <a href="contact.html">ติดต่อ</a>
+</nav>
+
+<h2>รายการสินค้า</h2>
+
+<div class="product-container">
+
+    <div class="product">
+        <img src="dok1.jpg" alt="กุหลาบแดง">
+        <h3>ช่อกุหลาบแดง</h3>
+        <p>ราคา: 590 บาท</p>
+        <button onclick="alert('เพิ่มลงตะกร้าแล้ว')">สั่งซื้อ</button>
+    </div>
+
+    <div class="product">
+        <img src="dok2.jpg" alt="ทานตะวัน">
+        <h3>ช่อดอกทานตะวัน</h3>
+        <p>ราคา: 450 บาท</p>
+        <button onclick="alert('เพิ่มลงตะกร้าแล้ว')">สั่งซื้อ</button>
+    </div>
+
+    <div class="product">
+        <img src="dok3.jpg" alt="ทิวลิป">
+        <h3>ช่อดอกทิวลิป</h3>
+        <p>ราคา: 690 บาท</p>
+        <button onclick="alert('เพิ่มลงตะกร้าแล้ว')">สั่งซื้อ</button>
+    </div>
+
+    <div class="product">
+        <img src="dok4.jpg" alt="เดซี่">
+        <h3>ช่อดอกเดซี่</h3>
+        <p>ราคา: 250 บาท</p>
+        <button onclick="alert('เพิ่มลงตะกร้าแล้ว')">สั่งซื้อ</button>
+    </div>
+
+    <div class="product">
+        <img src="dok5.jpg" alt="กุหลาบขาว">
+        <h3>ช่อดอกกุหลาบสีขาว</h3>
+        <p>ราคา: 650 บาท</p>
+        <button onclick="alert('เพิ่มลงตะกร้าแล้ว')">สั่งซื้อ</button>
+    </div>
+</div>
+
+</body>
+</html>
